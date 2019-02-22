@@ -140,9 +140,7 @@
     height: 1rem;
     margin-top: 10rem;
     background: #ffffff;
-    border-top: 0.01rem solid rgba(0,0,0.0.4);
-
-
+    box-shadow: 0 0.02rem 0.2rem 0.02rem #bcbcbc;
 }
 .footContainer{
     width: 7.04rem;
@@ -157,6 +155,7 @@
     width: 0.55rem;
     height: 0.8rem;
     margin-top: 0.08rem;
+
 }
 .footBox img{
     /*display: block;*/

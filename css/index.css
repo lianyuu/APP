@@ -44,9 +44,13 @@
 .addBox{
     width: 0.58rem;
     height: 0.58rem;
-    background: white;
     border-radius: 50%;
     /*margin-left: 0.23rem;*/
+}
+.addBox img{
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 50%;
 }
 .search{
     width: 0.35rem;
@@ -216,16 +220,20 @@
 
 /*recommend*/
 .recommend2{
+    width: 100%;
+    margin-top: 2.8rem;
+    margin-bottom: 1.4rem;
+
+}
+.recommend2 .buy{
     width: 2.17rem;
     height: 0.61rem;
-    margin-top: 2.8rem;
+    text-align: center;
+    line-height: 0.61rem;
+    font-size: 0.4rem;
     background-image: linear-gradient(-69deg,rgba(243,163,175,0.98),
     rgba(155,164,235,0.98));
     border-radius: 0 0.5rem 0.5rem 0;
-}
-.recommend2 p{
-    text-align: center;
-    font-size: 0.4rem;
     color: #fff;
 }
 .recommend2Item1{
@@ -249,6 +257,9 @@
     width: 7.04rem;
     height: 7.87rem;
     margin: 0 0.23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .recommend2Item2 .rec2 {
     position: relative;
@@ -258,6 +269,7 @@
     background: #ffffff;
     margin-top: 0.1rem;
     box-shadow: 0 0.06rem 0.01rem 0.05rem rgba(176, 176, 176, 0.57);
+
 }
 .recommend2Item2 a img{
     width: 3.07rem;
@@ -291,7 +303,6 @@
     display: block;
     width: 100%;
     height: 100%;
-    margin-left: -0.4rem;
     line-height: 0.53rem;
     font-size: 0.18rem;
     color: rgba(0,0,0,0.7);
@@ -318,9 +329,7 @@
     height: 1rem;
     margin-top: 10rem;
     background: #ffffff;
-    border-top: 0.01rem solid rgba(0,0,0.0.4);
-
-
+    box-shadow: 0 0.02rem 0.2rem 0.02rem #bcbcbc;
 }
 .footContainer{
     width: 7.04rem;
