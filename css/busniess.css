@@ -1,0 +1,248 @@
+@import "base.css";
+.top{
+    width: 100%;
+    height: 0.4rem;
+    background-image: linear-gradient(to left,rgba(243,163,175,0.98),
+    rgba(155,164,235,0.98));
+}
+.top img{
+    width: 100%;
+    height: 0.4rem;
+}
+.header{
+    width: 100%;
+    height: 3.15rem;
+    position: relative;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+.bottom{
+    width: 1.36rem;
+    height: 1.36rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.57rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*header*/
+.title{
+    margin-top: 0.38rem;
+    width: 100%;
+    height: 1.04rem;
+    text-align: center;
+}
+/*title*/
+#box{
+    width: 100%;
+    height: 10.42rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+#headerTop{
+    width: 6.04rem;
+    height: 0.75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#headerTop a{
+    width: 0.67rem;
+    height: 0.29rem;
+    font-size: 0.30rem;
+    margin-top: 0.25rem;
+}
+#main{
+    margin-top: 0.27rem;
+    width: 100%;
+    height: 9.68rem;
+    flex-grow: 1;
+    display: flex;
+}
+.left{
+    width: 1.64rem;
+    height: 8.42rem;
+    background: rgba(149, 158, 223, 0.48);
+}
+.left ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left ul li{
+    font-size: 0.2rem;
+    width: 1.09rem;
+    height: 0.42rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    text-align: center;
+    margin-left: 0.24rem;
+}
+.right{
+    width: auto;
+    height: 8.42rem;
+    flex-grow: 1;
+    background: #ffffff;
+}
+.right ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right ul li{
+    width: 5.11rem;
+    height: 1.68rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.3rem 0.02rem #bcbcbc;
+    border-radius: 0.2rem;
+    margin-left: 0.24rem;
+    position: relative;
+}
+.right li a{
+    width: 1.61rem;
+    height: 100%;
+}
+.right li h3{
+    width: 2.8rem;
+    height: 0.25rem;
+    font-size: 0.26rem;
+    position: absolute;
+    top: 0rem;
+    left: 1.97rem;
+}
+.right li p{
+    width: 2.8rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    position: absolute;
+    top: 0.36rem;
+    left: 1.97rem;
+}
+.right li span{
+    width: 2.8rem;
+    height: 0.18rem;
+    position: absolute;
+    top: 0.73rem;
+    left: 1.97rem;
+}
+.right li b{
+    width: 2.8rem;
+    height: 0.14rem;
+    font-size: 0.20rem;
+    color: red;
+    position: absolute;
+    top: 1.32rem;
+    left: 1.97rem;
+}
+.right .jia{
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.32rem;
+    background: #959edf;
+    left: 4.68rem;
+}
+.right .jia img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*center*/
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.2rem 0.02rem #bcbcbc;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#footer img{
+    width: 0.67rem;
+    height: 0.67rem;
+    border-radius: 50%;
+    background: #cccccc;
+    position: absolute;
+    top: 0.11rem;
+    left: 0.35rem;
+}
+#footer b{
+    width: 1.44rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.64rem;
+}
+#footer p{
+    width: 1.64rem;
+    height: 0.21rem;
+    color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0.59rem;
+    left: 1.64rem;
+}
+#footer a{
+    width: 1.50rem;
+    height: 0.53rem;
+    border-radius: 0.27rem;
+    text-align: center;
+    line-height: 0.53rem;
+    color: #ffffff;
+    background: rgb(124,124,124);
+    position: absolute;
+    top: 0.25rem;
+    left: 5.24rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1rem;
+    margin-top: 10rem;
+    background: #ffffff;
+    border-top: 0.01rem solid rgba(0,0,0.0.4);
+
+
+}
+.footContainer{
+    width: 7.04rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footBox{
+    display: block;
+    width: 0.55rem;
+    height: 0.8rem;
+    margin-top: 0.08rem;
+}
+.footBox img{
+    /*display: block;*/
+    width: 0.55rem;
+    height: 0.55rem;
+}
+.footBox p{
+    display: block;
+    width: 0.55rem;
+    height: 0.18rem;
+    margin-top: 0.01rem;
+    font-size: 0.18rem;
+    text-align: center;
+}

@@ -1,0 +1,173 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 1.16rem;
+}
+.top{
+    width: 100%;
+    height: 0.4rem;
+}
+.top img{
+    width: 100%;
+    height: 0.4rem;
+}
+.header p{
+    width: 7.50rem;
+    font-size: 0.36rem;
+    text-align: center;
+}
+.recommend1{
+    width: 2.18rem;
+    height: 0.61rem;
+    background-image: linear-gradient(-69deg,rgba(243,163,175,0.98),
+    rgba(155,164,235,0.98));
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.recommend1 p{
+    text-align: center;
+    font-size: 0.4rem;
+    color: #fff;
+}
+.recommendItem{
+    width: 7.04rem;
+    height: 2.13rem;
+    /*background: #2e6da4;*/
+    display: flex;
+    justify-content: space-around;
+    margin: 0.42rem 0.23rem;
+}
+.recommendItem li{
+    width: 3.07rem;
+    height: 2.13rem;
+    background: #e4e6f7;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.05rem 0.08rem #8d8d8d;
+}
+.recommendItem li p{
+    display: block;
+    float: left;
+    width: 0.97rem;
+    height: 0.24rem;
+    margin-top: 0.22rem;
+    margin-left: 0.18rem;
+    font-size: 0.24rem;
+    color: #333;
+}
+.recommendItem li img{
+    float: right;
+    margin-top: 0.25rem;
+    margin-right: 0.15rem;
+    width: 1.64rem;
+    height: 1.64rem;
+    border-radius: 50%;
+}
+
+/*recommend*/
+.recommend2{
+    width: 2.17rem;
+    height: 0.61rem;
+    margin-top: 3rem;
+    background-image: linear-gradient(-69deg,rgba(243,163,175,0.98),
+    rgba(155,164,235,0.98));
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.recommend2 p{
+    /*text-align: center;*/
+    font-size: 0.4rem;
+    color: #fff;
+}
+.recommend2Item2{
+    width: 7.04rem;
+    height: 3.6rem;
+    margin: 0 0.3rem;
+}
+.recommend2Item2 li {
+    width: 6.83rem;
+    height: 1.81rem;
+    border-radius: 0.1rem;
+    margin-top: 0.71rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.3rem 0.02rem #bcbcbc;
+    position: relative;
+}
+.recommend2Item2 img{
+    width: 1.71rem;
+    height: 1.71rem;
+    border-radius: 50%;
+}
+.recommend2Item2 li h3{
+    width: 2.8rem;
+    height: 0.25rem;
+    font-size: 0.26rem;
+    position: absolute;
+    top: 0;
+    left: 1.97rem;
+}
+.recommend2Item2 li p{
+    width: 2.8rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0.36rem;
+    left: 1.97rem;
+}
+.recommend2Item2 li span{
+    width: 3.4rem;
+    height: 0.18rem;
+    position: absolute;
+    top: 1.04rem;
+    left: 1.97rem;
+}
+.recommend2Item2 li b{
+    width: 1.36rem;
+    height: 0.48rem;
+    border-radius: 0.24rem;
+    text-align: center;
+    line-height: 0.48rem;
+    color: white;
+    position: absolute;
+    top: 0.75rem;
+    right: 0;
+    background-image: linear-gradient(-69deg,rgba(243,163,175,0.98),
+    rgba(155,164,235,0.98));
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1rem;
+    margin-top: 10rem;
+    background: #ffffff;
+    border-top: 0.01rem solid rgba(0,0,0.0.4);
+
+
+}
+.footContainer{
+    width: 7.04rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footBox{
+    display: block;
+    width: 0.55rem;
+    height: 0.8rem;
+    margin-top: 0.08rem;
+}
+.footBox img{
+    /*display: block;*/
+    width: 0.55rem;
+    height: 0.55rem;
+}
+.footBox p{
+    display: block;
+    width: 0.55rem;
+    height: 0.18rem;
+    margin-top: 0.01rem;
+    font-size: 0.18rem;
+    text-align: center;
+}
